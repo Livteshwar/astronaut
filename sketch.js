@@ -67,4 +67,16 @@ function draw() {
     ast.changeAnimation("sleeping",sleepImg);
   }
   drawSprites();
+  
+ textSize(20);
+  fill("red")
+  text("Brushing = Space",55,60);
+  text("Gyming = Up arrow",55,85);
+  text("Exercising = Down arrow",55,110);
+  text("Bathing = 'D'",55,135)
+  text("Eating = Right arrow",55,160);
+  text("Drinking = Left arrow",55,185);
+  text("Moving = 'M'",55,205)
+  
+  
 }
